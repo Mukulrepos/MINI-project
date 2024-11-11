@@ -1,0 +1,29 @@
+/* Adjust carousel width and height */
+#carouselExampleCaptions .carousel-inner {
+    width: 80%;  /* Set width */
+    height: 500px;  /* Set height */
+    margin: auto;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: cover; /* Ensures images fit within specified dimensions */
+    height: 100%;
+    width: 100%;
+}
+
+/* Customize the text and caption position */
+#carouselExampleCaptions .carousel-caption {
+    bottom: 20%; /* Adjust caption position */
+    color: #fff; /* Text color */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Customize heading and paragraph text styles */
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#carouselExampleCaptions .carousel-caption p {
+    font-size: 1.2rem;
+}
